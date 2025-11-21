@@ -1,14 +1,14 @@
-def converteTemperatura(opcao, graus):
-    if opcao==1:
+def conversorTemperatura(opcao, graus):
+    if opcao == 1:
         f = graus * 1.8 + 32
         print(f)
         return f
-    if opcao==2:
+    
+    elif opcao == 2:
         c = (graus - 32) / 1.8
         print(c)
         return c
+        
     else:
         print("Opção inválida")
         return 0
-
-converteTemperatura(3,0)
